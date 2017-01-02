@@ -1,4 +1,4 @@
-<web-app>
+<web-app xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_1.xsd" version="3.1">
 <servlet>
 		<servlet-name>dispatcher</servlet-name>
 		<servlet-class>

@@ -19,13 +19,13 @@ public class HomeController {
 		
 		return mv;
 	}
-	@RequestMapping("/log")
+	
+	@RequestMapping("/Login")
 	public ModelAndView showLogin() {
-		
+		System.out.println("Login page");
  
 		ModelAndView mv = new ModelAndView("Login");
 		
 		return mv;
 	}
-	
 }
